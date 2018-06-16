@@ -8,16 +8,55 @@
   <name>AirCondition Maven Mojo</name>
   <url>http://maven.apache.org</url>
   <dependencies>
+
     <dependency>
       <groupId>org.apache.maven</groupId>
       <artifactId>maven-plugin-api</artifactId>
       <version>2.0</version>
     </dependency>
+
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+
+
+    <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+    <!--LOMBOK简化GETTER AND SETTER-->
+      <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.0</version>
+      <scope>provided</scope>
+    </dependency>
+
+
+    <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+    <!--MYSQL JDBC-->
+      <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>8.0.11</version>
+    </dependency>
+
+      <!-- https://mvnrepository.com/artifact/org.json/json -->
+      <!--JSONObject-->
+      <dependency>
+          <groupId>org.json</groupId>
+          <artifactId>json</artifactId>
+          <version>20180130</version>
+      </dependency>
+
+      <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+      <!--GSON-->
+      <dependency>
+          <groupId>com.google.code.gson</groupId>
+          <artifactId>gson</artifactId>
+          <version>2.8.5</version>
+      </dependency>
+
+
   </dependencies>
 </project>
